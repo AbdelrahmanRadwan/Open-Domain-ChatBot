@@ -9,6 +9,9 @@ __pycache__/
 *.MP4
 *.mp3
 
+# Datsets
+DataSet/
+
 # PyCharm files
 .idea/
 
