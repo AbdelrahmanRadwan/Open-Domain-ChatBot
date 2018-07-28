@@ -1,9 +1,4 @@
-
 {% load staticfiles %}
-
-{% load static %}
-
-
 <!DOCTYPE HTML>
 <!--
 	Identity by HTML5 UP
@@ -12,7 +7,7 @@
 -->
 <html>
 	<head>
-		<title>Chatbot</title>
+		<title>DeepQA: A Chatbot</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="icon" href="{% static 'images/icon.png' %}">
@@ -32,28 +27,43 @@
 						<header>
 							<span class="avatar"><img src="{% static 'images/avatar.jpg' %}" alt="" /></span>
 							<h1>Chatbot</h1>
-							<p>Welcome!</p>
+							<p>Welcome to this session!</p>
 						</header>
-
+						
 						<form id="chat_form">
                             {% csrf_token %}
 							<div class="field">
 								<input type="text" name="name" id="message" placeholder="Say something..." />
-								<a href= "#" class="button" id = "send">Send</a>
-                                <!--<button type="submit" id="go">Say it</button>-->
-
+								<!--<a href="#" class="button">Go</a>-->
+								<!--<button type="submit" id="go">Say it</button>-->
 								</div>
-							<div class="field">
+							<!--<div class="field">
 								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
-							</div>
+							</div>-->
 						</form>
-
+						
 						<div id="chat_zone"></div>
-
-
+						
+						<hr />
+						
+						<footer>
+							<ul class="icons">
+								<li><a href="http://e-pot.xyz" class="fa-home">Home</a></li>
+								<li><a href="https://github.com/Conchylicultor/DeepQA" class="fa-github">Github</a></li>
+								<li><a href="mailto:etiennefg.pot@gmail.com" class="fa-envelope">Contact</a></li>
+								<!--<li><a href="#" class="fa-linkedin">LinkedIn</a></li>-->
+							</ul>
+						</footer>
 					</section>
 
-
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>Image: <a href="http://mattdixon.co.uk">Matt Dixon</a></li>
+							<li>&copy; <a href="http://e-pot.xyz">Etienne Pot</a></li>
+						</ul>
+					</footer>
 
 			</div>
 

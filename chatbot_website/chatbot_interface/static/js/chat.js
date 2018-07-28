@@ -1,3 +1,4 @@
+// Credits goes to https://blog.heroku.com/in_deep_with_django_channels_the_future_of_real_time_apps_in_django
 
 $(function() {
 
@@ -16,7 +17,6 @@ $(function() {
     $("#chat_form").on("submit", function(event) {
 
         try {
-         $("#send").click();
             var message_elem = $('#message');
             var message_val = message_elem.val();
 
