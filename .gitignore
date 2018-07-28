@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Demo videos
+.mp4
+.Mp4
+.MP4
+.mp3
 # PyCharm files
 .idea/
 
