@@ -1,4 +1,0 @@
-# Database
-*.sqlite3
-# Redis
-dump.rdb
